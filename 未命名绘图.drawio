@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T08:04:24.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="yb2qu3V9VXle5PKtttXn" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T09:01:21.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="nju_SuH8kbI6cr4xT7Ya" version="20.8.20" type="github">
   <diagram name="第 1 页" id="45e1RVT2QQFBY6jEHa_o">
-    <mxGraphModel dx="794" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="794" dy="484" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,6 +45,39 @@
         </mxCell>
         <mxCell id="A8M-WVdensZmk5pqQo09-13" value="更新目标特征" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="640" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A8M-WVdensZmk5pqQo09-17" target="A8M-WVdensZmk5pqQo09-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;目标框选择&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="149" y="557" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="A8M-WVdensZmk5pqQo09-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;目标正样本与背景负样本构建训练集&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="317" y="552" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="A8M-WVdensZmk5pqQo09-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;训练判别模型&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="557" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="A8M-WVdensZmk5pqQo09-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="774" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;待测图像构建待测样本集&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="624" y="557" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A8M-WVdensZmk5pqQo09-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;判别模型输出最佳位置&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="774" y="557" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
